@@ -1,2 +1,27 @@
-# Seguridad-WordPress
-Seguridad WordPress
+# Seguridad en WordPress
+
+- No utilices el prefijo wp_ para la base de datos. en la instalacion de WorPress tenemos la posivilidad de cambiar este prefijo.
+- No utilices el usuario **admin** para acceder  a WordPress.
+- Utiliza una contraseña fuerte.
+- Usa siempre la última versión de WordPress.
+- Actualiza los plugins instalados.
+- Actualiza el tema activo.
+- No utilices plugins o temas obsoletos.
+- Borra los plugins y temas que no utilices.
+- Descarga plugins y temas de sitios seguros.
+- Protege el archivo de configuración de WordPress:  **wp-config.php**
+- Protege la carpeta de archivos subidos: definir expresamente las extenciones de archivos que dejaremos que subir al servidor. **jpg|jpeg|jpe|gif|png|bmp|tif|tiff|doc|pdf|rtf|xls|numbers|odt|pages|key|zip|rar**
+- Haz copias de seguridad.
+- Limita los intentos de acceso.
+- Instala un plugin de seguridad: 
+    - **WordFence**
+    - **iThemes Security**
+    - **Bulletproof**
+- Utiliza permisos de archivos y carpetas seguros:
+    - Archivos: 644
+    - Carpetas: 755 
+- Utiliza un proxy inverso como CloudFlare.
+- Impide el acceso de sploggers con captchas para poder comentar. o haciendo bans a las palabras en dichos comentarios.
+- Protege el archivo **.htaccess**.
+- Evita la vulnerabilidad **pingback**.
+- Comprueba los cambios en los archivos de tu instalación de WordPress.
